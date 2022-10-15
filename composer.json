@@ -1,0 +1,21 @@
+{
+    "name": "goofybnu/php-ssh",
+    "description": "Simples gerenciador de conexões SSH em PHP",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Carlos Ricardo Schmitz",
+            "email": "goofybnu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GoofyBNU\\SecureShell\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "ext-ssh2": "*"
+    }
+}
